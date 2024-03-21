@@ -1,6 +1,37 @@
 .App {
   text-align: center;
 }
+/* adding body css */
+body {
+  background-color: #3a4f5b;
+  color: #fff;
+  font-family: sans-serif;
+  font-style: 1rem;
+  line-height: 1.5;
+  margin: 0 auto;
+  min-block-size: 100vh;
+  width: 90%;
+}
+/* adding search css */
+.search [type='search'] {
+  background-color: #131b20;
+  color: #fff;
+  padding: 0.5em 2em;
+  text-align: center;
+  width: 100%;
+}
+.search {
+  font-size: 1.5rem;
+  margin: 1.5em auto 3em;
+  max-width: 80%;
+}
+/* adding input */
+input {
+  border: 0;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
 
 .App-logo {
   height: 40vmin;
